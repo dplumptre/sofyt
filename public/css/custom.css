@@ -1,0 +1,90 @@
+/*! Place your custom styles here */
+
+
+
+
+h2{
+    color: #E90038 !important;
+}
+
+
+
+/* carousel */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    text-align:center;
+  }
+  /* indicator position */
+  #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -10px;
+    margin-right: -19px;
+  }
+  /* indicator color */
+  #quote-carousel .carousel-indicators li {
+    background: #c0c0c0;
+  }
+  /* active indicator */
+  #quote-carousel .carousel-indicators .active {
+    background: #333333;
+    height:10px;
+    width:10px;
+    margin-bottom:1px;
+  }
+ 
+
+  .banner{
+    padding: 30px 0px 0px 20px;
+    color:white;
+  }
+
+
+  .banner h1{
+    color:white;
+  }
+
+
+  select,input,textarea {
+    margin:6px 0px !important;
+  }
+
+
+
+@font-face {
+  font-family: MyFontBold ;
+  src: url("fonts/Montserrat/Montserrat-Bold.ttf");
+  }
+
+
+
+@font-face {
+  font-family: MyFont ;
+  src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+  }
+
+
+  body{
+    color:black !important;
+  }
+
+
+  .lead {
+    font-weight: 800;
+    color:black !important;
+    font-size: 15px !important;
+}
+
+
+.bar-1 .menu-horizontal > li > .dropdown__trigger, .bar-1 .menu-horizontal > li > a {
+  font-size: 14px !important;
+  color:#000000;
+}
+
+
+.accordion li.active .accordion__title {
+  background: #e2c587 !important;
+  border-bottom: 1px solid #e2c587 !important;
+      border-bottom-color: #e2c587 !important;
+}
